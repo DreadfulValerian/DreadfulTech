@@ -28,7 +28,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          * 1. Creating a new Category
          * This Category will use the following ItemStack
          */
-        ItemStack itemGroupItem = new CustomItemStack(Material.DIAMOND, "&4Addon Category", "", "&a> Click to open");
+        ItemStack itemGroupItem = new CustomItemStack(Material.REDSTONE_BLOCK, "&4Dreadful Slime", "", "&a> Click to open");
 
         // Give your Category a unique id.
         NamespacedKey itemGroupId = new NamespacedKey(this, "addon_category");
@@ -39,7 +39,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          * This class has many constructors, it is very important
          * that you give each item a unique id.
          */
-        SlimefunItemStack slimefunItem = new SlimefunItemStack("COOL_DIAMOND", Material.DIAMOND, "&4Cool Diamond", "&c+20% Coolness");
+        SlimefunItemStack slimefunItem = new SlimefunItemStack("DREADFUL_SLIMEBALL", Material.REDSTONE_BLOCK, "&4Dreadful Slimeball", "&cA Placeholder Item");
 
         /*
          * 3. Creating a Recipe
@@ -48,7 +48,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          * The machine in which this recipe is crafted in is specified
          * further down as the RecipeType.
          */
-        ItemStack[] recipe = { new ItemStack(Material.EMERALD), null, new ItemStack(Material.EMERALD), null, new ItemStack(Material.DIAMOND), null, new ItemStack(Material.EMERALD), null, new ItemStack(Material.EMERALD) };
+        ItemStack[] recipe = { new ItemStack(Material.SLIMEBALL), null, new ItemStack(Material.SLIMEBALL), null, new ItemStack(Material.REDSTONE_BLOCK), null, new ItemStack(Material.SLIMEBALL), null, new ItemStack(Material.SLIMEBALL) };
 
         /*
          * 4. Registering the Item
