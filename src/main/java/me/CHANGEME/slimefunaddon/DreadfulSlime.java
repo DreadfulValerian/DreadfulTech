@@ -1,4 +1,4 @@
-package me.SlimeDreadful.slimefunaddon;
+package me.valeriandreadful.DreadfulSlime;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
