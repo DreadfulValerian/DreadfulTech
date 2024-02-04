@@ -1,4 +1,4 @@
-package me.valeriandreadful.dreadfulslime;
+package me.valeriandreadful.dreadfultech;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -28,7 +28,7 @@ public class ExampleAddon extends JavaPlugin implements SlimefunAddon {
          * 1. Creating a new Category
          * This Category will use the following ItemStack
          */
-        ItemStack itemGroupItem = new CustomItemStack(Material.REDSTONE_BLOCK, "&4Dreadful Slime", "", "&a> Click to open");
+        ItemStack itemGroupItem = new CustomItemStack(Material.REDSTONE_LAMP, "&4DreadfulTech", "", "&a> Click to open");
 
         // Give your Category a unique id.
         NamespacedKey itemGroupId = new NamespacedKey(this, "addon_category");
